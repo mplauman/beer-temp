@@ -1,20 +1,11 @@
 #include <Arduino.h>
 
-// put function declarations here:
-int myFunction(int, int);
-
 void setup() {
   Serial.begin(115200); // See `monitor_speed` in platformio.ini
-
-  // put your setup code here, to run once:
-  int result = myFunction(2, 3);
+  delay(2000);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-}
-
-// put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
+  Serial.println("Hello, world!");
+  delay(1000);
 }
