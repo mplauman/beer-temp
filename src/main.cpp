@@ -4,6 +4,8 @@
 int myFunction(int, int);
 
 void setup() {
+  Serial.begin(115200); // See `monitor_speed` in platformio.ini
+
   // put your setup code here, to run once:
   int result = myFunction(2, 3);
 }
