@@ -2,3 +2,8 @@
 !.vscode/extensions.json
 
 .pio/*
+
+# Ignore the 'secrets.hpp' file. This is where local devs store their SSID
+# names and passwords. Shouldn't be included in source contro. There's a
+# 'secrets.hpp.example' file that includes a template.
+include/secrets.hpp
