@@ -38,8 +38,8 @@ it is doing over the serial interface.
 
 ## Monitoring
 
-I set up a (Graphite)[https://graphiteapp.org] database on an old laptop to
-receive the data, and a (Grafana)[https://grafana.com] monitoring solution to
+I set up a [Graphite](https://graphiteapp.org) database on an old laptop to
+receive the data, and a [Grafana](https://grafana.com) monitoring solution to
 display a pleasing graph. This is definitely overkill, but they were easy to
 set up via docker.
 
@@ -49,7 +49,7 @@ I went pretty far down a rabbit hole on this and can't really remember all the
 spots I drew information from.
 
 But the one I ultimately based (stole) my design from was `Top DNG`'s excellent
-video on YouTube: (Making a Cheap Wi-Fi Thermometer for Home Automation)[https://youtu.be/1Bsn6xnnoIs?si=6wa__fz9eMQcUE7p].
+video on YouTube: [Making a Cheap Wi-Fi Thermometer for Home Automation](https://youtu.be/1Bsn6xnnoIs?si=6wa__fz9eMQcUE7p).
 
 ## Learnings
 
